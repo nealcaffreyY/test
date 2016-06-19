@@ -1,0 +1,12 @@
+{
+  "name": "test",
+  "version": "0.0.1",
+  "description": "测试",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "dist": "webpack -p",
+    "debug": "webpack -w",
+    "fis": "fis3 server start --type php -p 8088 && fis3 release debug -c && fis3 release debug -wL"
+  }
+}
